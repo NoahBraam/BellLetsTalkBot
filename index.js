@@ -9,9 +9,9 @@ var T = new Twit({
 
 function tweetFunc() {
   c+= 0.05;
-  T.post('statuses/update', { status: 'This bot has donated $' + c + 'for #BellLetsTalk'  }, function(err, data, response) {
+  T.post('statuses/update', { status: 'This bot has donated $' + c + ' for #BellLetsTalk'  }, function(err, data, response) {
     console.log(data);
-  }
+  })
 }
 
 setInterval(tweetFunc, 60000);
