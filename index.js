@@ -14,4 +14,4 @@ function tweetFunc() {
   })
 }
 
-setInterval(tweetFunc, 20000);
+setInterval(tweetFunc, 60000);
